@@ -3,4 +3,10 @@ Everyone is annoyed by the fact that every now and then the Internet stops worki
 
 
 
-Create a specific username and password on your fritzbox
+---
+## FritzBox Setup
+
+Create a specific username and password on your fritzbox:
+<img src= "images/01 fritzbox.png" width="800">
+<img src= "images/02 fritzbox.png" width="800">
+
