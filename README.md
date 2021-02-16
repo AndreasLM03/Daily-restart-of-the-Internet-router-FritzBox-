@@ -40,3 +40,6 @@ Open terminal and start crontab -e
 <img src= "images/04 rasp crontab.jpg" width="800">
 
 Save crontab by using ctrl + x, type y for y and close the terminal
+
+
+Your Router will start every day at 540 am
