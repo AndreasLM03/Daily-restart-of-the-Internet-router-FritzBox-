@@ -7,6 +7,5 @@ Everyone is annoyed by the fact that every now and then the Internet stops worki
 ## FritzBox Setup
 
 Create a specific username and password on your fritzbox:
-<img src= "images/01fritzbox.png" width="800">
-<img src= "images/02fritzbox.png" width="800">
-
+<img src= "images/01 fritzbox.jpg" width="800">
+<img src= "images/02 fritzbox.jpg" width="800">
