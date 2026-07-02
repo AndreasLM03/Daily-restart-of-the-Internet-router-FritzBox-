@@ -1,0 +1,23 @@
+services:
+  fritzbox-rebooter:
+    build: .
+    image: fritzbox-rebooter:latest
+    container_name: fritzbox-rebooter
+    restart: "no"
+    volumes:
+      - fritzbox_data:/data
+    environment:
+      - DATA_DIR=/data
+      - TZ=${TZ:-Europe/Berlin}
+      - FRITZBOX_HOST=${FRITZBOX_HOST:-192.168.178.1}
+      - FRITZBOX_PORT=${FRITZBOX_PORT:-49000}
+      - FRITZBOX_USER=${FRITZBOX_USER}
+      - FRITZBOX_PASSWORD=${FRITZBOX_PASSWORD}
+
+volumes:
+  fritzbox_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /opt/fritzbox-rebooter-data

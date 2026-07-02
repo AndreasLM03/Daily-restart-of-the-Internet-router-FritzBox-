@@ -1,0 +1,26 @@
+[project]
+name = "fritzbox-rebooter"
+version = "0.1.0"
+description = "Automated FritzBox reboot via TR-064 SOAP"
+authors = [
+    {name = "AndreasLM03"}
+]
+requires-python = "^3.12"
+package-mode = false
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)"
+]
+
+
+[tool.pytest.ini_options]
+markers = ["integration: live tests that require a reachable FritzBox"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)",
+    "isort (>=8.0.1,<9.0.0)"
+]

@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data & logs (never commit)
+/data/
+logs/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
